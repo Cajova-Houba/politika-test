@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<table name="kategorie">
+		<column>id</column>
+		<column>nazev</column>
+		<column>rodKategorie_id</column>
+		<row>
+				<value description="id">1</value>
+				<value description="nazev">Senát</value>
+		</row>
+		<row>
+				<value description="id">2</value>
+				<value description="nazev">Poslanecká sněmovna</value>
+		</row>
+		<row>
+				<value description="id">3</value>
+				<value description="nazev">Strany</value>
+		</row>
+		<row>
+				<value description="id">4</value>
+				<value description="nazev">Aktivita senátu</value>
+				<value description="rodKategorie_id">1</value>
+		</row>
+		<row>
+				<value description="id">5</value>
+				<value description="nazev">Členové</value>
+				<value description="rodKategorie_id">1</value>
+		</row>
+		<row>
+				<value description="id">6</value>
+				<value description="nazev">Aktivita poslanecké sněmovny</value>
+				<value description="rodKategorie_id">2</value>
+		</row>
+		<row>
+				<value description="id">7</value>
+				<value description="nazev">Členové</value>
+				<value description="rodKategorie_id">2</value>
+		</row>
+	</table>
+
+
+	<table name="prispevek">
+		<column>id</column>
+		<column>datum</column>
+		<column>nadpis</column>
+		<column>text</column>
+		<column>zdroje</column>
+		<column>kategorie_id</column>
+		<row>
+				<value description="id">1</value>
+				<value description="datum">2016-1-1</value>
+				<value description="nadpis">Aktivita 1</value>
+				<value description="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet nibh euismod mollis. Mauris nec dignissim risus. Morbi diam elit, fermentum vel leo non, blandit viverra purus. Vestibulum elementum id ante sit amet volutpat. Nulla elementum, lacus sit.</value>
+				<value description="zdroje">zdroj</value>
+				<value description="kategorie_id">4</value>
+		</row>
+		<row>
+				<value description="id">2</value>
+				<value description="datum">2016-1-1</value>
+				<value description="nadpis">Aktivita 2</value>
+				<value description="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet nibh euismod mollis. Mauris nec dignissim risus. Morbi diam elit, fermentum vel leo non, blandit viverra purus. Vestibulum elementum id ante sit amet volutpat. Nulla elementum, lacus sit.</value>
+				<value description="zdroje">zdroj</value>
+				<value description="kategorie_id">4</value>
+		</row>
+		<row>
+				<value description="id">3</value>
+				<value description="datum">2016-1-1</value>
+				<value description="nadpis">Aktivita 3</value>
+				<value description="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet nibh euismod mollis. Mauris nec dignissim risus. Morbi diam elit, fermentum vel leo non, blandit viverra purus. Vestibulum elementum id ante sit amet volutpat. Nulla elementum, lacus sit.</value>
+				<value description="zdroje">zdroj</value>
+				<value description="kategorie_id">4</value>
+		</row>
+		<row>
+				<value description="id">4</value>
+				<value description="datum">2016-1-1</value>
+				<value description="nadpis">Aktivita 12</value>
+				<value description="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet nibh euismod mollis. Mauris nec dignissim risus. Morbi diam elit, fermentum vel leo non, blandit viverra purus. Vestibulum elementum id ante sit amet volutpat. Nulla elementum, lacus sit.</value>
+				<value description="zdroje">zdroj</value>
+				<value description="kategorie_id">6</value>
+		</row>
+		<row>
+				<value description="id">5</value>
+				<value description="datum">2016-1-1</value>
+				<value description="nadpis">Aktivita 8</value>
+				<value description="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet nibh euismod mollis. Mauris nec dignissim risus. Morbi diam elit, fermentum vel leo non, blandit viverra purus. Vestibulum elementum id ante sit amet volutpat. Nulla elementum, lacus sit.</value>
+				<value description="zdroje">zdroj</value>
+				<value description="kategorie_id">6</value>
+		</row>
+		<row>
+				<value description="id">6</value>
+				<value description="datum">2016-1-1</value>
+				<value description="nadpis">Aktivita 7</value>
+				<value description="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean egestas sit amet nibh euismod mollis. Mauris nec dignissim risus. Morbi diam elit, fermentum vel leo non, blandit viverra purus. Vestibulum elementum id ante sit amet volutpat. Nulla elementum, lacus sit.</value>
+				<value description="zdroje">zdroj</value>
+				<value description="kategorie_id">6</value>
+		</row>
+	</table>
+	
+	<table name="osoba">
+		<column>id</column>
+		<column>name</column>
+		<column>info</column>
+		<row>
+				<value description="id">1</value>
+				<value description="name">Bohuslav Sobotka</value>
+				<value description="info">premiér</value>
+		</row>
+		<row>
+				<value description="id">2</value>
+				<value description="name">Andej Babiš</value>
+				<value description="info">ministr financí</value>
+		</row>
+		<row>
+				<value description="id">3</value>
+				<value description="name">Robert Pelikán</value>
+				<value description="info">ministr spravedlnosti</value>
+		</row>
+		<row>
+				<value description="id">4</value>
+				<value description="name">Milan Chovanec</value>
+				<value description="info">ministr vnitra</value>
+		</row>
+		<row>
+				<value description="id">5</value>
+				<value description="name">Martin Stropnický</value>
+				<value description="info">ministr obrany</value>
+		</row>
+	</table>
+	
+	<table name="kategorie_osoba">
+		<column>osoba_id</column>
+		<column>kategorie_id</column>
+		<row>
+			<value>1</value>
+			<value>7</value>
+		</row>
+		<row>
+			<value>2</value>
+			<value>7</value>
+		</row>
+		<row>
+			<value>3</value>
+			<value>7</value>
+		</row>
+		<row>
+			<value>4</value>
+			<value>7</value>
+		</row>
+		<row>
+			<value>5</value>
+			<value>7</value>
+		</row>
+	</table>
+</dataset>
